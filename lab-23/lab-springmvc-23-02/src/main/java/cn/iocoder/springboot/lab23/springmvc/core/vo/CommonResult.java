@@ -80,6 +80,8 @@ public class CommonResult<T> implements Serializable {
         this.data = data;
     }
 
+    // 忽略，避免 jackson 序列化给前端
+    // 方便判断是否成功
     @JsonIgnore
     public boolean isSuccess() {
         return CODE_SUCCESS.equals(code);

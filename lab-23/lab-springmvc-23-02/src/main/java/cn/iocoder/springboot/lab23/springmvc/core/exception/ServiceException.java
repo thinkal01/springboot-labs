@@ -36,6 +36,7 @@ public final class ServiceException extends RuntimeException {
      */
     private final Integer code;
 
+    // 提供传入 serviceExceptionEnum 参数的构造方法
     public ServiceException(ServiceExceptionEnum serviceExceptionEnum) {
         // 使用父类的 message 字段
         super(serviceExceptionEnum.getMessage());

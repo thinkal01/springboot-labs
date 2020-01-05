@@ -31,6 +31,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+// 实现 WebMvcConfigurer 接口，实现 SpringMVC 的自定义配置。
 @Configuration
 public class SpringMVCConfiguration implements WebMvcConfigurer {
 
@@ -61,6 +62,11 @@ public class SpringMVCConfiguration implements WebMvcConfigurer {
         registry.addInterceptor(this.thirdInterceptor()).addPathPatterns("/**");
     }
 
+    /**
+     *在 Spring Boot 中，提供了 ServletRegistrationBean 来配置 Servlet Bean、
+     * FilterRegistrationBean 来配置 Filter Bean、
+     * ServletListenerRegistrationBean 来配置 Listener Bean 。
+     */
     @Bean
     public ServletRegistrationBean testServlet01() {
         ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean<>(new HttpServlet() {
