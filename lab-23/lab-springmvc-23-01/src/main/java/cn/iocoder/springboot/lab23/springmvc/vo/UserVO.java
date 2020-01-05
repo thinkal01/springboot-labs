@@ -32,4 +32,8 @@ public class UserVO {
         return this;
     }
 
+    @Override
+    public String toString() {
+        return id + " : " + username;
+    }
 }
