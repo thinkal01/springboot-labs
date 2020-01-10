@@ -27,7 +27,7 @@ management:
 info:
   app:
     java:
-      source: 1.8.0_144
-      target: 1.8.0_144
+      source: @java.version@
+      target: @java.version@
     encoding: UTF-8
-    version: 2.2.2.RELEASE
+    version: @project.version@

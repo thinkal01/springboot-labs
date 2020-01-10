@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="authorization-code-server" />
+        <module name="client-credentials-server" />
+        <module name="implicit-server" />
+        <module name="lab-01-springsecurity-demo" />
+        <module name="lab-01-springsecurity-demo-role" />
+        <module name="lab-03-kafka-demo" />
+        <module name="lab-03-kafka-demo-ack" />
+        <module name="lab-03-kafka-demo-batch" />
+        <module name="lab-03-kafka-demo-batch-consume" />
+        <module name="lab-03-kafka-demo-broadcast" />
+        <module name="lab-03-kafka-demo-concurrency" />
+        <module name="lab-03-kafka-demo-transaction" />
+        <module name="lab-03-kafka-native" />
+        <module name="lab-04-rabbitmq-consume-retry" />
+        <module name="lab-04-rabbitmq-demo" />
+        <module name="lab-04-rabbitmq-demo-ack" />
+        <module name="lab-04-rabbitmq-demo-batch" />
+        <module name="lab-04-rabbitmq-demo-batch-consume" />
+        <module name="lab-04-rabbitmq-demo-batch-consume-02" />
+        <module name="lab-04-rabbitmq-demo-concurrency" />
+        <module name="lab-04-rabbitmq-demo-confirm" />
+        <module name="lab-04-rabbitmq-demo-confirm-async" />
+        <module name="lab-04-rabbitmq-demo-dely" />
+        <module name="lab-04-rabbitmq-demo-error-handler" />
+        <module name="lab-04-rabbitmq-demo-json" />
+        <module name="lab-04-rabbitmq-demo-message-consume" />
+        <module name="lab-04-rabbitmq-demo-orderly" />
+        <module name="lab-04-rabbitmq-demo-rpc" />
+        <module name="lab-04-rabbitmq-demo-transaction" />
+        <module name="lab-04-rabbitmq-native" />
+        <module name="lab-05-jetty" />
+        <module name="lab-05-tomcat" />
+        <module name="lab-05-tomcat-apr" />
+        <module name="lab-05-undertow" />
+        <module name="lab-06-springmvc-tomcat" />
+        <module name="lab-06-webflux-netty" />
+        <module name="lab-06-webflux-tomcat" />
+        <module name="lab-07-spring-cloud-gateway" />
+        <module name="lab-07-spring-data-redis-with-jedis" />
+        <module name="lab-07-spring-data-redis-with-redisson" />
+        <module name="lab-07-zuul" />
+        <module name="lab-08" />
+        <module name="lab-09" />
+        <module name="lab-10" />
+        <module name="lab-12-mybatis-annotation" />
+        <module name="lab-12-mybatis-plus" />
+        <module name="lab-12-mybatis-tk" />
+        <module name="lab-12-mybatis-xml" />
+        <module name="lab-13-jpa" />
+        <module name="lab-14-jdbctemplate" />
+        <module name="lab-15-spring-data-elasticsearch" />
+        <module name="lab-15-spring-data-jest" />
+        <module name="lab-16-spring-data-mongodb" />
+        <module name="lab-17-dynamic-datasource-baomidou-01" />
+        <module name="lab-17-dynamic-datasource-baomidou-02" />
+        <module name="lab-17-dynamic-datasource-jdbctemplate" />
+        <module name="lab-17-dynamic-datasource-mybatis" />
+        <module name="lab-17-dynamic-datasource-sharding-jdbc-01" />
+        <module name="lab-17-dynamic-datasource-sharding-jdbc-02" />
+        <module name="lab-17-dynamic-datasource-springdatajpa" />
+        <module name="lab-18-sharding-datasource-01" />
+        <module name="lab-18-sharding-datasource-02" />
+        <module name="lab-19-datasource-pool-druid-multiple" />
+        <module name="lab-19-datasource-pool-druid-single" />
+        <module name="lab-19-datasource-pool-hikaricp-multiple" />
+        <module name="lab-19-datasource-pool-hikaricp-single" />
+        <module name="lab-20-database-version-control-flyway" />
+        <module name="lab-20-database-version-control-liquibase" />
+        <module name="lab-21-cache-demo" />
+        <module name="lab-21-cache-ehcache" />
+        <module name="lab-21-cache-redis" />
+        <module name="lab-22-validation-01" />
+        <module name="lab-24-apidoc-swagger" />
+        <module name="lab-24-apidoc-swagger-knife4j" />
+        <module name="lab-26-distributed-session-01" />
+        <module name="lab-26-distributed-session-02" />
+        <module name="lab-26-distributed-session-springsecurity" />
+        <module name="lab-28-task-demo" />
+        <module name="lab-28-task-quartz-jdbc" />
+        <module name="lab-28-task-quartz-memory" />
+        <module name="lab-28-task-xxl-job" />
+        <module name="lab-29-async-demo" />
+        <module name="lab-29-async-two" />
+        <module name="lab-31-rocketmq-demo" />
+        <module name="lab-31-rocketmq-ons" />
+        <module name="lab-32-activemq-demo" />
+        <module name="lab-32-activemq-demo-concurrency" />
+        <module name="lab-32-activemq-demo-consume-retry" />
+        <module name="lab-32-activemq-demo-delay" />
+        <module name="lab-32-activemq-demo-message-model" />
+        <module name="lab-32-activemq-demo-orderly" />
+        <module name="lab-32-activemq-native" />
+        <module name="lab-33-shiro-demo" />
+        <module name="lab-34-actuator-demo-auditevents" />
+        <module name="lab-34-actuator-demo-custom-endpoint" />
+        <module name="lab-34-actuator-demo-health" />
+        <module name="lab-34-actuator-demo-httptrace" />
+        <module name="lab-34-actuator-demo-metrics" />
+        <module name="lab-34-actuator-demo-security" />
+        <module name="lab-34-acturator-demo" />
+        <module name="lab-34-acturator-demo-info" />
+        <module name="lab-35-admin-01-adminserver" />
+        <module name="lab-35-admin-01-demo-application" />
+        <module name="lab-35-admin-02-adminserver" />
+        <module name="lab-35-admin-02-demo-application" />
+        <module name="lab-35-admin-02-eurekaserver" />
+        <module name="lab-35-admin-03-adminserver" />
+        <module name="lab-35-admin-03-demo-application" />
+        <module name="lab-35-admin-04-adminserver" />
+        <module name="lab-35-admin-05-adminserver" />
+        <module name="lab-36-prometheus-demo" />
+        <module name="lab-37-logging-actuator" />
+        <module name="lab-37-logging-aop" />
+        <module name="lab-37-logging-debug" />
+        <module name="lab-37-logging-demo" />
+        <module name="lab-37-logging-log4j2" />
+        <module name="lab-37-logging-logback" />
+        <module name="lab-37-logging-multi-env" />
+        <module name="lab-38" />
+        <module name="lab-38-elk-demo" />
+        <module name="lab-39-demo" />
+        <module name="lab-39-elasticsearch" />
+        <module name="lab-39-elasticsearch-jest" />
+        <module name="lab-39-mongodb" />
+        <module name="lab-39-mysql" />
+        <module name="lab-39-redis" />
+        <module name="lab-39-rocketmq" />
+        <module name="lab-39-springmvc" />
+        <module name="lab-springmvc-23-01" />
+        <module name="lab-websocket-25-01" />
+        <module name="lab-websocket-25-02" />
+        <module name="lab-websocket-25-03" />
+        <module name="resource-owner-password-credentials-server" />
+        <module name="resource-owner-password-credentials-server-by-jdbc-token-store" />
+        <module name="resource-owner-password-credentials-server-with-refresh-token" />
+        <module name="resource-owner-password-credentials-server-with-revoke-token" />
+        <module name="user-rpc-service-api" />
+        <module name="user-rpc-service-api-02" />
+        <module name="user-rpc-service-consumer" />
+        <module name="user-rpc-service-consumer-02" />
+        <module name="user-rpc-service-provider" />
+        <module name="user-rpc-service-provider-02" />
+      </profile>
+      <profile name="Annotation profile for lab-27-webflux-redis" enabled="true">
+        <sourceOutputDir name="../../lab-27/lab-27-webflux-redis/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../lab-27/lab-27-webflux-redis/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab-27-webflux-redis" />
+      </profile>
+      <profile name="Annotation profile for lab-27-webflux-r2dbc" enabled="true">
+        <sourceOutputDir name="../../lab-27/lab-27-webflux-r2dbc/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../lab-27/lab-27-webflux-r2dbc/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab-27-webflux-r2dbc" />
+      </profile>
+      <profile name="Annotation profile for lab-27-webflux-03" enabled="true">
+        <sourceOutputDir name="../../lab-27/lab-27-webflux-03/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../lab-27/lab-27-webflux-03/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab-27-webflux-03" />
+      </profile>
+      <profile name="Annotation profile for lab-27-webflux-02" enabled="true">
+        <sourceOutputDir name="../../lab-27/lab-27-webflux-02/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../lab-27/lab-27-webflux-02/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab-27-webflux-02" />
+      </profile>
+      <profile name="Annotation profile for lab-27-webflux-01" enabled="true">
+        <sourceOutputDir name="../../lab-27/lab-27-webflux-01/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../lab-27/lab-27-webflux-01/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab-27-webflux-01" />
+      </profile>
+      <profile name="Annotation profile for labs-parent" enabled="true">
+        <sourceOutputDir name="../../lab-23/lab-springmvc-23-02/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../lab-23/lab-springmvc-23-02/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab-springmvc-23-02" />
+      </profile>
+      <profile name="Annotation profile for lab-27-webflux-elasticsearch" enabled="true">
+        <sourceOutputDir name="../../lab-27/lab-27-webflux-elasticsearch/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../lab-27/lab-27-webflux-elasticsearch/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab-27-webflux-elasticsearch" />
+      </profile>
+      <profile name="Annotation profile for lab-27-webflux-mongodb" enabled="true">
+        <sourceOutputDir name="../../lab-27/lab-27-webflux-mongodb/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../lab-27/lab-27-webflux-mongodb/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab-27-webflux-mongodb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="authorization-code-server" target="1.5" />
+      <module name="client-credentials-server" target="1.5" />
+      <module name="implicit-server" target="1.5" />
+      <module name="lab-01" target="1.5" />
+      <module name="lab-01-springsecurity-demo" target="1.5" />
+      <module name="lab-01-springsecurity-demo-role" target="1.5" />
+      <module name="lab-02" target="1.5" />
+      <module name="lab-03" target="1.5" />
+      <module name="lab-03-kafka-demo" target="1.5" />
+      <module name="lab-03-kafka-demo-ack" target="1.5" />
+      <module name="lab-03-kafka-demo-batch" target="1.5" />
+      <module name="lab-03-kafka-demo-batch-consume" target="1.5" />
+      <module name="lab-03-kafka-demo-broadcast" target="1.5" />
+      <module name="lab-03-kafka-demo-concurrency" target="1.5" />
+      <module name="lab-03-kafka-demo-transaction" target="1.5" />
+      <module name="lab-03-kafka-native" target="1.5" />
+      <module name="lab-04" target="1.5" />
+      <module name="lab-04-rabbitmq-consume-retry" target="1.5" />
+      <module name="lab-04-rabbitmq-demo" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-ack" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-batch" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-batch-consume" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-batch-consume-02" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-concurrency" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-confirm" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-confirm-async" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-dely" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-error-handler" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-json" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-message-consume" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-orderly" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-rpc" target="1.5" />
+      <module name="lab-04-rabbitmq-demo-transaction" target="1.5" />
+      <module name="lab-04-rabbitmq-native" target="1.5" />
+      <module name="lab-05" target="1.5" />
+      <module name="lab-05-jetty" target="1.5" />
+      <module name="lab-05-tomcat" target="1.5" />
+      <module name="lab-05-tomcat-apr" target="1.5" />
+      <module name="lab-05-undertow" target="1.5" />
+      <module name="lab-06" target="1.5" />
+      <module name="lab-06-springmvc-tomcat" target="1.5" />
+      <module name="lab-06-webflux-netty" target="1.5" />
+      <module name="lab-06-webflux-tomcat" target="1.5" />
+      <module name="lab-07" target="1.5" />
+      <module name="lab-07-spring-cloud-gateway" target="1.5" />
+      <module name="lab-07-spring-data-redis-with-jedis" target="1.5" />
+      <module name="lab-07-spring-data-redis-with-redisson" target="1.5" />
+      <module name="lab-07-zuul" target="1.5" />
+      <module name="lab-08" target="1.5" />
+      <module name="lab-09" target="1.5" />
+      <module name="lab-10" target="1.5" />
+      <module name="lab-11" target="1.5" />
+      <module name="lab-12" target="1.5" />
+      <module name="lab-12-mybatis-annotation" target="1.5" />
+      <module name="lab-12-mybatis-plus" target="1.5" />
+      <module name="lab-12-mybatis-tk" target="1.5" />
+      <module name="lab-12-mybatis-xml" target="1.5" />
+      <module name="lab-13" target="1.5" />
+      <module name="lab-13-jpa" target="1.5" />
+      <module name="lab-14" target="1.5" />
+      <module name="lab-14-jdbctemplate" target="1.5" />
+      <module name="lab-15" target="1.5" />
+      <module name="lab-15-spring-data-elasticsearch" target="1.5" />
+      <module name="lab-15-spring-data-jest" target="1.5" />
+      <module name="lab-16" target="1.5" />
+      <module name="lab-16-spring-data-mongodb" target="1.5" />
+      <module name="lab-17" target="1.5" />
+      <module name="lab-17-dynamic-datasource-baomidou-01" target="1.5" />
+      <module name="lab-17-dynamic-datasource-baomidou-02" target="1.5" />
+      <module name="lab-17-dynamic-datasource-jdbctemplate" target="1.5" />
+      <module name="lab-17-dynamic-datasource-mybatis" target="1.5" />
+      <module name="lab-17-dynamic-datasource-sharding-jdbc-01" target="1.5" />
+      <module name="lab-17-dynamic-datasource-sharding-jdbc-02" target="1.5" />
+      <module name="lab-17-dynamic-datasource-springdatajpa" target="1.5" />
+      <module name="lab-18" target="1.5" />
+      <module name="lab-18-sharding-datasource-01" target="1.5" />
+      <module name="lab-18-sharding-datasource-02" target="1.5" />
+      <module name="lab-19" target="1.5" />
+      <module name="lab-19-datasource-pool-druid-multiple" target="1.5" />
+      <module name="lab-19-datasource-pool-druid-single" target="1.5" />
+      <module name="lab-19-datasource-pool-hikaricp-multiple" target="1.5" />
+      <module name="lab-19-datasource-pool-hikaricp-single" target="1.5" />
+      <module name="lab-20" target="1.5" />
+      <module name="lab-20-database-version-control-flyway" target="1.5" />
+      <module name="lab-20-database-version-control-liquibase" target="1.5" />
+      <module name="lab-21" target="1.5" />
+      <module name="lab-21-cache-demo" target="1.5" />
+      <module name="lab-21-cache-ehcache" target="1.5" />
+      <module name="lab-21-cache-redis" target="1.5" />
+      <module name="lab-22" target="1.5" />
+      <module name="lab-22-validation-01" target="1.5" />
+      <module name="lab-23-springmvc" target="1.5" />
+      <module name="lab-24" target="1.5" />
+      <module name="lab-24-apidoc-swagger" target="1.5" />
+      <module name="lab-24-apidoc-swagger-knife4j" target="1.5" />
+      <module name="lab-25" target="1.5" />
+      <module name="lab-26" target="1.5" />
+      <module name="lab-26-distributed-session-01" target="1.8" />
+      <module name="lab-26-distributed-session-02" target="1.5" />
+      <module name="lab-26-distributed-session-springsecurity" target="1.5" />
+      <module name="lab-27-webflux" target="1.5" />
+      <module name="lab-27-webflux-01" target="1.8" />
+      <module name="lab-27-webflux-02" target="1.5" />
+      <module name="lab-27-webflux-03" target="1.5" />
+      <module name="lab-27-webflux-elasticsearch" target="1.5" />
+      <module name="lab-27-webflux-mongodb" target="1.5" />
+      <module name="lab-27-webflux-r2dbc" target="1.5" />
+      <module name="lab-27-webflux-redis" target="1.5" />
+      <module name="lab-28" target="1.5" />
+      <module name="lab-28-task-demo" target="1.5" />
+      <module name="lab-28-task-quartz-jdbc" target="1.5" />
+      <module name="lab-28-task-quartz-memory" target="1.5" />
+      <module name="lab-28-task-xxl-job" target="1.5" />
+      <module name="lab-29" target="1.5" />
+      <module name="lab-29-async-demo" target="1.5" />
+      <module name="lab-29-async-two" target="1.5" />
+      <module name="lab-30" target="1.5" />
+      <module name="lab-30-dubbo-annotations-demo" target="1.5" />
+      <module name="lab-30-dubbo-xml-demo" target="1.5" />
+      <module name="lab-31" target="1.5" />
+      <module name="lab-31-rocketmq-demo" target="1.5" />
+      <module name="lab-31-rocketmq-ons" target="1.5" />
+      <module name="lab-32" target="1.5" />
+      <module name="lab-32-activemq-demo" target="1.5" />
+      <module name="lab-32-activemq-demo-concurrency" target="1.5" />
+      <module name="lab-32-activemq-demo-consume-retry" target="1.5" />
+      <module name="lab-32-activemq-demo-delay" target="1.5" />
+      <module name="lab-32-activemq-demo-message-model" target="1.5" />
+      <module name="lab-32-activemq-demo-orderly" target="1.5" />
+      <module name="lab-32-activemq-native" target="1.5" />
+      <module name="lab-33" target="1.5" />
+      <module name="lab-33-shiro-demo" target="1.5" />
+      <module name="lab-34" target="1.5" />
+      <module name="lab-34-actuator-demo-auditevents" target="1.5" />
+      <module name="lab-34-actuator-demo-custom-endpoint" target="1.5" />
+      <module name="lab-34-actuator-demo-health" target="1.5" />
+      <module name="lab-34-actuator-demo-httptrace" target="1.5" />
+      <module name="lab-34-actuator-demo-metrics" target="1.5" />
+      <module name="lab-34-actuator-demo-security" target="1.5" />
+      <module name="lab-34-acturator-demo" target="1.5" />
+      <module name="lab-34-acturator-demo-info" target="1.5" />
+      <module name="lab-35" target="1.5" />
+      <module name="lab-35-admin-01-adminserver" target="1.5" />
+      <module name="lab-35-admin-01-demo-application" target="1.5" />
+      <module name="lab-35-admin-02-adminserver" target="1.5" />
+      <module name="lab-35-admin-02-demo-application" target="1.5" />
+      <module name="lab-35-admin-02-eurekaserver" target="1.5" />
+      <module name="lab-35-admin-03-adminserver" target="1.5" />
+      <module name="lab-35-admin-03-demo-application" target="1.5" />
+      <module name="lab-35-admin-04-adminserver" target="1.5" />
+      <module name="lab-35-admin-05-adminserver" target="1.5" />
+      <module name="lab-36" target="1.5" />
+      <module name="lab-36-prometheus-demo" target="1.5" />
+      <module name="lab-37" target="1.5" />
+      <module name="lab-37-logging-actuator" target="1.5" />
+      <module name="lab-37-logging-aop" target="1.5" />
+      <module name="lab-37-logging-debug" target="1.5" />
+      <module name="lab-37-logging-demo" target="1.5" />
+      <module name="lab-37-logging-log4j2" target="1.5" />
+      <module name="lab-37-logging-logback" target="1.5" />
+      <module name="lab-37-logging-multi-env" target="1.5" />
+      <module name="lab-38" target="1.5" />
+      <module name="lab-38-elk-demo" target="1.5" />
+      <module name="lab-39" target="1.5" />
+      <module name="lab-39-demo" target="1.5" />
+      <module name="lab-39-elasticsearch" target="1.5" />
+      <module name="lab-39-elasticsearch-jest" target="1.5" />
+      <module name="lab-39-mongodb" target="1.5" />
+      <module name="lab-39-mysql" target="1.5" />
+      <module name="lab-39-redis" target="1.5" />
+      <module name="lab-39-rocketmq" target="1.5" />
+      <module name="lab-39-springmvc" target="1.5" />
+      <module name="lab-springmvc-23-01" target="1.8" />
+      <module name="lab-springmvc-23-02" target="1.8" />
+      <module name="lab-websocket-25-01" target="1.5" />
+      <module name="lab-websocket-25-02" target="1.5" />
+      <module name="lab-websocket-25-03" target="1.5" />
+      <module name="labs-parent" target="1.5" />
+      <module name="resource-owner-password-credentials-server" target="1.5" />
+      <module name="resource-owner-password-credentials-server-by-jdbc-token-store" target="1.5" />
+      <module name="resource-owner-password-credentials-server-with-refresh-token" target="1.5" />
+      <module name="resource-owner-password-credentials-server-with-revoke-token" target="1.5" />
+      <module name="user-rpc-service-api" target="1.5" />
+      <module name="user-rpc-service-api-02" target="1.5" />
+      <module name="user-rpc-service-consumer" target="1.5" />
+      <module name="user-rpc-service-consumer-02" target="1.5" />
+      <module name="user-rpc-service-provider" target="1.5" />
+      <module name="user-rpc-service-provider-02" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

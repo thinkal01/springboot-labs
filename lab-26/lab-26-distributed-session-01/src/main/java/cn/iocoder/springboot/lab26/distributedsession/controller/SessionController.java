@@ -26,7 +26,7 @@ public class SessionController {
         Map<String, Object> result = new HashMap<>();
         // 遍历
         for (Enumeration<String> enumeration = session.getAttributeNames();
-             enumeration.hasMoreElements();) {
+             enumeration.hasMoreElements(); ) {
             String key = enumeration.nextElement();
             Object value = session.getAttribute(key);
             result.put(key, value);
